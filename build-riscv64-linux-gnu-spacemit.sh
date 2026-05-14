@@ -2,7 +2,7 @@
 set -ex
 
 SPACEMIT_TOOLCHAIN=spacemit-toolchain-linux-glibc-x86_64-v1.1.2
-DOWNLOAD_URL="https://archive.spacemit.com/toolchain/${SPACEMIT_TOOLCHAIN}.tar.xz"
+DOWNLOAD_URL="https://github.com/spacemit-com/toolchain/releases/download/v1.1.2/${SPACEMIT_TOOLCHAIN}.tar.xz"
 DOWNLOAD_FILE="./riscv-spacemit-toolchain.tar.gz"
 
 if [ -n "$RISCV_ROOT_PATH" ] && [ -d "$RISCV_ROOT_PATH" ]; then
